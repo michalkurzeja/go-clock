@@ -13,14 +13,14 @@ The package also offers some commonly-used functions from the `time` package tha
 
 ## Installation
 ```shell script
-go get github.com/msales/go-clock
+go get github.com/michalkurzeja/go-clock
 ```
 
 ## Usage
 In your code, simply use the `go-clock` functions for time retrieval instead of the standard `time` package:
 
 ```go
-import "github.com/msales/go-clock"
+import "github.com/michalkurzeja/go-clock"
 
 now := clock.Now() // Instead of `time.Now()`
 since := clock.Since(now) // Instead of `time.Since()`
