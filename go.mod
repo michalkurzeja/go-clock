@@ -1,4 +1,4 @@
-module github.com/msales/go-clock
+module github.com/michalkurzeja/go-clock
 
 go 1.13
 

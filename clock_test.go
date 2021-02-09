@@ -5,7 +5,7 @@ import (
 	"time"
 
 	clock2 "github.com/benbjohnson/clock"
-	"github.com/msales/go-clock"
+	"github.com/michalkurzeja/go-clock"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 )
