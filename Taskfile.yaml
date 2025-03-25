@@ -1,0 +1,13 @@
+version: '3'
+
+silent: true
+
+tasks:
+  default:
+    desc: "List all available tasks"
+    cmds: [ 'task --list' ]
+
+  tool:mockery:
+    desc: "Generate mocks using mockery"
+    aliases: [ mockery, mocks ]
+    cmds: [ 'go tool mockery' ]
