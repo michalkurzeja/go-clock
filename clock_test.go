@@ -91,7 +91,6 @@ func TestSleep(t *testing.T) {
 	clock.Set(clk)
 
 	clock.Sleep(d)
-
 }
 
 func TestTick(t *testing.T) {
